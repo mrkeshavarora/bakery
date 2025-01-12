@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: ;
+}
+body{
+    font-family: "Sansita Swashed";
+    /* font-family: 'Jersey 15'; */
+    /* color: white; */
+}
+/*.... welcome page or first page starts here ........ */
+#welcome-page{
+    background-image: url(/images/home-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+nav{
+    display: flex;
+    justify-content:flex-start;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+nav img{
+    margin-left: 4rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-left: 13rem;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+}
+/* ........ container 1 starts ............. */
+.welcome-page-container1{
+    /* border: 2px solid white; */
+    max-width: 600px;
+    margin-left: 6rem;
+    margin-top: 7rem;
+}
+.welcome-page-container1 h3{
+    color:#E9BD8C ;
+    font-size: 35px;
+    font-weight: 400;
+}
+.welcome-page-container1 h1{
+    color: white;
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.welcome-page-container1 button{
+    padding: 15px 25px 15px 25px;
+    background-color: #933C24;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    border: none;
+}
+.welcome-page-container1 a{
+    color: #E9BD8C;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+/* ..... top product page or second page starts here.... */
+#top-product{
+    height: 130vh;
+    text-align: center;
+    align-items: center;
+    border: 10px solid pink;
+}
+#top-product h1{
+    font-size: 60px;
+    
+    font-weight: 700;
+}
+.top-product-container1{
+    max-width: 1000px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 5px;
+    display: grid;
+    /* border: 2px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-product-container1 .boxes{
+    /* padding: 2rem; */
+    /* border: 2px solid black; */
+    margin: 1rem;
+    transform: scale(1);
+    transition: .5s linear;
+}
+
+.top-product-container1 .boxes img:hover{
+    transform: scale(1.1);
+    transition: .5s linear;
+    border-top: 50px;
+    overflow: hidden;
+}
+
+.top-product-container1 .boxes img{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    /* position:absolute; */
+}
+.box{
+    /* border: 2px solid palevioletred;  */
+    height: 100px;   
+    position: relative;
+    margin-top: -145px;
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+.top-product-container1 .boxes .box .box-mai-box1{
+    /* background-color: #933C24; */
+    /* height: 40px; */
+    display: flex;     
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+}
+
+.top-product-container1 .boxes .box .box-mai-box1 span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top-product-container1 .boxes .box .box-mai-box1 .bx {
+    color: white;
+    /* height: 1vh; */
+    /* width: auto; */
+    font-size: 25px;
+}
+.top-product-container1 .boxes .box .box-mai-box2{
+    /* border: 3px solid red; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-mai-box2 span{
+    color:#E9BD8C;
+    font-size: 25px;
+    font-weight: 600;
+    /* border: 5px solid red; */
+}
+
+.box-mai-box2 button{
+    /* padding: 0px 25px 0px 25px; */
+    padding: auto;
+    height: 40px;
+    width: 70px;
+    background-color: #933C24;
+    font-size: 20px;
+    border: none;
+    color: white;
+    font-weight: 300;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/* ........ 20 % off page or third page starts here..... */
+#off20{
+    background-image: url(/images/off.png);
+    height: 80vh;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* #off20 img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+} */
+.off20-container1 {
+    max-width: 500px;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.off20-container1 h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #933C24;
+    margin: 1rem;
+}
+.off20-container1 p{
+    font-size: 30px;
+    margin: 1rem;
+    color: black;
+}
+.off20-container1 button{
+    font-size: 25px;
+    padding: 15px 25px 15px 25px;
+    background-color: #933C24;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    border: none;
+    color: white;
+}
